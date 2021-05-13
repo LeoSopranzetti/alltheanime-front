@@ -2,7 +2,7 @@ import axios from 'axios'
 import provedor from '@/provedor'
 
 const http = axios.create({
-    baseURL: 'http://localhost:8080/',
+    baseURL: 'https://alltheanime.herokuapp.com/',
     headers: {
         'Accept': 'application/json', 
         'Content': 'application/json'
